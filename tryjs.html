@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hehehe</title>
+    <link rel="stylesheet" href="css/buttan.css">
+    <script type="text/javascript">
+      function greeny(){
+        x=document.getElementById("demo")
+        x.className = "green";
+        x.innerHTML="I used to be pink, now I am green!!!"
+        // x.style.background="green"
+      }
+      function redy() {
+        x=document.getElementById("demo")
+        x.className = "red";
+        x.innerHTML="I used to be pink, you made me red!!"
+        // x.style.background="red"
+      }
+
+    </script>
+  </head>
+
+  <body>
+      <p id="demo">My background color is pink!</p>
+      <button onclick="greeny()">Change to green</button>
+      <button onclick="redy()">Change to red</button>
+  </body>
+
+</html>

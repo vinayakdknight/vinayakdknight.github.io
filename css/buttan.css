@@ -1,0 +1,20 @@
+p{
+  background: pink;
+  display: block;
+  padding: 100px;
+  text-align: center;
+}
+
+.green{
+  background: green;
+  display: block;
+  padding: 100px;
+  text-align: center;
+}
+
+.red{
+  background: red;
+  display: block;
+  padding: 100px;
+  text-align: center;
+}
