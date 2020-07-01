@@ -1,0 +1,37 @@
+.left {
+  width: 25%;
+  display: inline-block;
+  background-color: #42444E;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+
+nav a {
+  display: block;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+nav{
+  padding-top: 100px;
+}
+.right{
+  display: inline-block;
+  float: right;
+  width: 70%;
+  background-color: #d6d2c5;
+  height: 100vh;
+  margin: 1%;
+  padding: 5px;
+}
+.right h1{
+  text-align: center;
+  color: #46A049;
+}
+
+h3{
+  color: #46A049;
+}
