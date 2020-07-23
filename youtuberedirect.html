@@ -4,8 +4,14 @@
     <meta charset="utf-8">
     <title>Just a trial man</title>
     <script type="text/javascript">
-      window.location.replace("https://youtu.be/0x8nzy09y8Q");
+      if (/Mobi|Android/i.test(navigator.userAgent)) {
+    // mobile!
+    window.location.replace("vnd.youtube:di3IQw4_sg0")
+}else{
+  window.location.replace("https://youtu.be/di3IQw4_sg0")
+}
     </script>
+
   </head>
   <body>
     <p>Redirecting to YouTube. Please wait</p>
